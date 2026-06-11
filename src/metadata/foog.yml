@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/foog
+
+idspace: FOOG
+base_url: /obo/foog
+
+products:
+- foog.owl: https://raw.githubusercontent.com/RafaelBlankenburg/foog/main/foog.owl
+- foog.obo: https://raw.githubusercontent.com/RafaelBlankenburg/foog/main/foog.obo
+
+term_browser: ontobee
+example_terms:
+- FOOG_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/RafaelBlankenburg/foog/v
+
+- prefix: /tracker/
+  replacement: https://github.com/RafaelBlankenburg/foog/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/FOOG?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/RafaelBlankenburg/foog/main/
+
