@@ -9,28 +9,35 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/foog.owl>
-
+<http://purl.obolibrary.org/obo/foog.owl/1.0.0>
 Import(<http://purl.obolibrary.org/obo/foog/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/foog/imports/ro_import.owl>)
-
-
+Import(<https://www.inf.ufrgs.br/ontologies/o3po/releases/2026-04-09/o3po.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Failure Ontology for Oil and Gas")
-
 
 Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
-
 ############################
 #   Annotation Properties
 ############################
 
+# Annotation Property: dcterms:description (description)
+
 AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
 AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
 
 ############################
 #   Classes
