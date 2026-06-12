@@ -12,6 +12,7 @@ Ontology(<http://purl.obolibrary.org/obo/foog.owl>
 <http://purl.obolibrary.org/obo/foog.owl/1.0.0>
 Import(<http://purl.obolibrary.org/obo/foog/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/foog/imports/ro_import.owl>)
+Import(<https://spec.industrialontologies.org/ontology/202602/maintenance/Maintenance/>)
 Import(<https://www.inf.ufrgs.br/ontologies/o3po/releases/2026-04-09/o3po.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
