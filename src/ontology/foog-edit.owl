@@ -19,6 +19,21 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Failure Ontology for Oil and Gas")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000008>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000011>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000012>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000016>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000001>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000002>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000004>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000009>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000010>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000014>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000015>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -39,6 +54,31 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/FOOG_0000011> (installed at)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000011> "installed at"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000011> owl:topObjectProperty)
+
+# Object Property: <http://purl.obolibrary.org/obo/FOOG_0000012> (part of system site)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000012> "part of system site"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000012> owl:topObjectProperty)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://purl.obolibrary.org/obo/FOOG_0000016> (has production loss (bbl))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000016> "has production loss (bbl)"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000016> owl:topDataProperty)
+
+
 
 ############################
 #   Classes
@@ -47,6 +87,83 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000000> "root node"@en)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000003> (Failure Data)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000003> "Failure Data"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000003> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000005> (Functional Location)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000005> "Functional Location"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000005> <http://purl.obolibrary.org/obo/BFO_0000029>)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000006> (Plant Site)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000006> "Plant Site"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000006> <http://purl.obolibrary.org/obo/FOOG_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000007> (System Site)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000007> "System Site"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000007> <http://purl.obolibrary.org/obo/FOOG_0000005>)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000008> (Subsystem Site)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000008> "Subsystem Site"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000008> <http://purl.obolibrary.org/obo/FOOG_0000005>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000001> (disposition to fail 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000001> "disposition to fail 1"@en)
+ClassAssertion(<https://spec.industrialontologies.org/ontology/construct/DispositionToFail> <http://purl.obolibrary.org/obo/FOOG_0000001>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/FOOG_0000001> <http://purl.obolibrary.org/obo/FOOG_0000015>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/FOOG_0000001> <http://purl.obolibrary.org/obo/FOOG_0000002>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000002> (valve 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000002> "valve 1"@en)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_0000002>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/FOOG_0000002> <http://purl.obolibrary.org/obo/FOOG_0000001>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000011> <http://purl.obolibrary.org/obo/FOOG_0000002> <http://purl.obolibrary.org/obo/FOOG_0000009>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000004> (Failure Data 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000004> "Failure Data 1"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000003> <http://purl.obolibrary.org/obo/FOOG_0000004>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/FOOG_0000004> <http://purl.obolibrary.org/obo/FOOG_0000014>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/FOOG_0000004> <http://purl.obolibrary.org/obo/FOOG_0000015>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000009> (Gas Dehydration System)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000009> "Gas Dehydration System"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000007> <http://purl.obolibrary.org/obo/FOOG_0000009>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000012> <http://purl.obolibrary.org/obo/FOOG_0000009> <http://purl.obolibrary.org/obo/FOOG_0000010>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000010> (plant1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000010> "plant1"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000006> <http://purl.obolibrary.org/obo/FOOG_0000010>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000014> (Production Loss 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000014> "Production Loss 1"@en)
+ClassAssertion(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/FOOG_0000014>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/FOOG_0000014> <http://purl.obolibrary.org/obo/FOOG_0000015>)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000016> <http://purl.obolibrary.org/obo/FOOG_0000014> "200"^^xsd:integer)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000015> (Failure1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000015> "Failure1"@en)
+ClassAssertion(<https://spec.industrialontologies.org/ontology/construct/FailureProcess> <http://purl.obolibrary.org/obo/FOOG_0000015>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000001>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000002>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000014>)
 
 
 )
