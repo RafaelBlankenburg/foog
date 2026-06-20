@@ -38,6 +38,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47>))
 Declaration(Class(<https://spec.industrialontologies.org/ontology/construct/DispositionToFail>))
 Declaration(Class(<https://spec.industrialontologies.org/ontology/construct/FailureProcess>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000054>))
@@ -59,6 +61,25 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000009>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000010>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000014>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000015>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0fe58203_0f39_4093_b4d8_4a1947154cb5>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_11be6566_e416_4eee_924d_ee8633683f40>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_1ebbcdd2_53d2_40ac_94a7_800de8802443>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_250f00d6_4d50_4143_9ecc_0ca7bc8d5b68>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_3b691cf6_8cf5_477c_a48a_9b78e77cf5f5>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_5353d1c5_10a8_4a8b_ba1e_d869c0367728>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_880d2522_cd45_458b_ba1e_218361125e92>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_aaf1fa4a_6c41_4f97_a8d0_d405babc61c5>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_bbe8679d_d44f_419f_bf6d_6d6276cad42f>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_ebfc37bd_fc21_4090_9099_44d962e4cff1>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_f72c1361_bc0a_492a_8377_bdb29462ddd3>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_f9c991b6_78e1_448e_bbcd_1cf7b52115d9>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_fdc74806_7ec6_4335_a883_41b99d3e6e12>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -232,6 +253,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000021> <http://purl.obolibrary
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000022> "control valve"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000022> "válvula de controle"@pt-br)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOOG_0000022> "https://en.wikipedia.org/wiki/Control_valve")
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000022> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000023> (Oil Production Loss Process)
@@ -252,7 +274,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "De
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "Entidade Informacional Descritiva"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/FOOG_0000028> (Ascriptive Information Entity)
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000028> (Entidade Informacional Atributiva)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Ascriptive Information Entity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Entidade Informacional Atributiva"@pt-br)
@@ -282,11 +304,29 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000032> "Me
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000032> "Produção Medida"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000032> <http://purl.obolibrary.org/obo/FOOG_0000027>)
 
+# Class: <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> (heat exchanger)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> "permutador"@pt-br)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> "heat exchanger"@pt)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> "https://dictionary.cambridge.org/dictionary/english/heat-exchanger?topic=vents-and-ventilation")
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> (fire-fighting pump)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "Bomba de incêndio; Bomba de combate a incêndio"@pt-br)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "fire-fighting pump"@pt)
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "https://www.ksb.com/en-global/centrifugal-pump-lexicon/article/fire-fighting-pump-1116746")
+SubClassOf(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065>)
+
 # Class: <https://spec.industrialontologies.org/ontology/construct/FailureProcess> (Failure Process)
 
 AnnotationAssertion(rdfs:label <https://spec.industrialontologies.org/ontology/construct/FailureProcess> "Failure Process"@en)
 AnnotationAssertion(rdfs:label <https://spec.industrialontologies.org/ontology/construct/FailureProcess> "Processo de Falha"@pt-br)
 SubClassOf(<https://spec.industrialontologies.org/ontology/construct/FailureProcess> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> (inflow control valve)
+
+AnnotationAssertion(rdfs:seeAlso <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> "https://glossary.slb.com/en/terms/i/inflow_control_valve")
 
 
 ############################
@@ -339,5 +379,101 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000055> <http://pur
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000002>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000014>)
 
+# Individual: <http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4> (B-5124003)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4> "B-5124003"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065> <http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8> (B-00931)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8> "B-00931"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> <http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848> (P-1231001)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848> "P-1231001"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1> (P-122303A)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1> "P-122303A"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0fe58203_0f39_4093_b4d8_4a1947154cb5> (B-51111006B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0fe58203_0f39_4093_b4d8_4a1947154cb5> "B-51111006B"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065> <http://purl.obolibrary.org/obo/FOOG_0fe58203_0f39_4093_b4d8_4a1947154cb5>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_11be6566_e416_4eee_924d_ee8633683f40> (VET-12314313)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_11be6566_e416_4eee_924d_ee8633683f40> "VET-12314313"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_11be6566_e416_4eee_924d_ee8633683f40>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_1ebbcdd2_53d2_40ac_94a7_800de8802443> (B-5133002)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_1ebbcdd2_53d2_40ac_94a7_800de8802443> "B-5133002"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065> <http://purl.obolibrary.org/obo/FOOG_1ebbcdd2_53d2_40ac_94a7_800de8802443>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_250f00d6_4d50_4143_9ecc_0ca7bc8d5b68> (VALV-12235122)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_250f00d6_4d50_4143_9ecc_0ca7bc8d5b68> "VALV-12235122"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> <http://purl.obolibrary.org/obo/FOOG_250f00d6_4d50_4143_9ecc_0ca7bc8d5b68>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_3b691cf6_8cf5_477c_a48a_9b78e77cf5f5> (VET-12335546)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_3b691cf6_8cf5_477c_a48a_9b78e77cf5f5> "VET-12335546"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_3b691cf6_8cf5_477c_a48a_9b78e77cf5f5>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_5353d1c5_10a8_4a8b_ba1e_d869c0367728> (B-66001-B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_5353d1c5_10a8_4a8b_ba1e_d869c0367728> "B-66001-B"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> <http://purl.obolibrary.org/obo/FOOG_5353d1c5_10a8_4a8b_ba1e_d869c0367728>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_880d2522_cd45_458b_ba1e_218361125e92> (VET-12524080)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_880d2522_cd45_458b_ba1e_218361125e92> "VET-12524080"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_880d2522_cd45_458b_ba1e_218361125e92>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3> (P-1223002A)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3> "P-1223002A"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9> (B-1251002B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9> "B-1251002B"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065> <http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_aaf1fa4a_6c41_4f97_a8d0_d405babc61c5> (P-512401-B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_aaf1fa4a_6c41_4f97_a8d0_d405babc61c5> "P-512401-B"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_aaf1fa4a_6c41_4f97_a8d0_d405babc61c5>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_bbe8679d_d44f_419f_bf6d_6d6276cad42f> (P-1223003)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_bbe8679d_d44f_419f_bf6d_6d6276cad42f> "P-1223003"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_bbe8679d_d44f_419f_bf6d_6d6276cad42f>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_ebfc37bd_fc21_4090_9099_44d962e4cff1> (B-5050501B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_ebfc37bd_fc21_4090_9099_44d962e4cff1> "B-5050501B"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065> <http://purl.obolibrary.org/obo/FOOG_ebfc37bd_fc21_4090_9099_44d962e4cff1>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_f72c1361_bc0a_492a_8377_bdb29462ddd3> (P-122303B)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_f72c1361_bc0a_492a_8377_bdb29462ddd3> "P-122303B"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_f72c1361_bc0a_492a_8377_bdb29462ddd3>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_f9c991b6_78e1_448e_bbcd_1cf7b52115d9> (VET-8724)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_f9c991b6_78e1_448e_bbcd_1cf7b52115d9> "VET-8724"@pt)
+ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_f9c991b6_78e1_448e_bbcd_1cf7b52115d9>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_fdc74806_7ec6_4335_a883_41b99d3e6e12> (B-04731)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_fdc74806_7ec6_4335_a883_41b99d3e6e12> "B-04731"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> <http://purl.obolibrary.org/obo/FOOG_fdc74806_7ec6_4335_a883_41b99d3e6e12>)
+
+
+AnnotationAssertion(rdfs:seeAlso <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000008> "https://en.wikipedia.org/wiki/Choke_valve")
 )
