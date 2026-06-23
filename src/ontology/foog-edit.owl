@@ -53,7 +53,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000034>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000035>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000036>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000037>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000016>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000041>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000001>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000004>))
@@ -61,6 +61,9 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000009>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000010>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000014>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000015>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000038>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000039>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000040>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848>))
@@ -168,10 +171,10 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000037> <http://purl.o
 #   Data Properties
 ############################
 
-# Data Property: <http://purl.obolibrary.org/obo/FOOG_0000016> (has production loss (bbl))
+# Data Property: <http://purl.obolibrary.org/obo/FOOG_0000041> (has value (bbl))
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000016> "has production loss (bbl)"@en)
-SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000016> owl:topDataProperty)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000041> "has value (bbl)"@en)
+SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000041> owl:topDataProperty)
 
 
 
@@ -340,9 +343,9 @@ ClassAssertion(<https://spec.industrialontologies.org/ontology/construct/Disposi
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000054> <http://purl.obolibrary.org/obo/FOOG_0000001> <http://purl.obolibrary.org/obo/FOOG_0000015>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000197> <http://purl.obolibrary.org/obo/FOOG_0000001> <http://purl.obolibrary.org/obo/FOOG_0000002>)
 
-# Individual: <http://purl.obolibrary.org/obo/FOOG_0000002> (valve 1)
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000002> (VALV-1234)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000002> "valve 1"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000002> "VALV-1234"@en)
 ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://purl.obolibrary.org/obo/FOOG_0000002>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000196> <http://purl.obolibrary.org/obo/FOOG_0000002> <http://purl.obolibrary.org/obo/FOOG_0000001>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000011> <http://purl.obolibrary.org/obo/FOOG_0000002> <http://purl.obolibrary.org/obo/FOOG_0000009>)
@@ -360,14 +363,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000009> "Ga
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000007> <http://purl.obolibrary.org/obo/FOOG_0000009>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000012> <http://purl.obolibrary.org/obo/FOOG_0000009> <http://purl.obolibrary.org/obo/FOOG_0000010>)
 
-# Individual: <http://purl.obolibrary.org/obo/FOOG_0000010> (plant1)
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000010> (P-47)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000010> "plant1"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000010> "P-47"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000006> <http://purl.obolibrary.org/obo/FOOG_0000010>)
 
-# Individual: <http://purl.obolibrary.org/obo/FOOG_0000014> (Production Loss 1)
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000014> (Production Loss Process 1)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000014> "Production Loss 1"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000014> "Production Loss Process 1"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/FOOG_0000014>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/FOOG_0000014> <http://purl.obolibrary.org/obo/FOOG_0000015>)
 
@@ -378,6 +381,24 @@ ClassAssertion(<https://spec.industrialontologies.org/ontology/construct/Failure
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000001>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000057> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000002>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/FOOG_0000015> <http://purl.obolibrary.org/obo/FOOG_0000014>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000038> (Measured Production 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000038> "Measured Production 1"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000032> <http://purl.obolibrary.org/obo/FOOG_0000038>)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000038> "60000"^^xsd:integer)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000039> (Theoretical-Production Potential 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000039> "Theoretical-Production Potential 1"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000030> <http://purl.obolibrary.org/obo/FOOG_0000039>)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000039> "70000")
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0000040> (Production Loss Measurement 1)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000040> "Production Loss Measurement 1"@pt)
+ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000031> <http://purl.obolibrary.org/obo/FOOG_0000040>)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000040> "10000")
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4> (B-5124003)
 
