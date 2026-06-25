@@ -128,22 +128,27 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000011> (installed at)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000011> "É a relação de localização entre um item e um local funcional"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000011> "installed at"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000011> owl:topObjectProperty)
 
-# Object Property: <http://purl.obolibrary.org/obo/FOOG_0000012> (part of system site)
+# Object Property: <http://purl.obolibrary.org/obo/FOOG_0000012> (parte do sistema de)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000012> "É uma relação que liga um site menor a um site que ele faz parte."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000012> "part of system site"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000012> "parte do sistema de"@pt-br)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000012> owl:topObjectProperty)
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000017> (is state of)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000017> "É a relação entre um estado de manutenção e um item."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000017> "is state of"@en)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000017> <http://purl.obolibrary.org/obo/FOOG_0000013>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000017> <http://purl.obolibrary.org/obo/BFO_0000030>)
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000024> (initiates)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000024> "É uma Object Property que liga um ocorrente a outro ocorrente subsequente."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000024> "initiates"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000024> owl:topObjectProperty)
 InverseObjectProperties(<http://purl.obolibrary.org/obo/FOOG_0000024> <http://purl.obolibrary.org/obo/FOOG_0000045>)
@@ -152,12 +157,15 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000024> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000025> (terminates)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000025> "É uma Object Property que liga um ocorrente a outro ocorrente que termina subsequentemente ao primeiro ocorrente começar"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000025> "terminates"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000025> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000025> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000033> (describes)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000033> "É uma Object Property que liga uma Descriptive Information Entity a um
+continuante ou ocorrente."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000033> "describes"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000033> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000033> <http://purl.obolibrary.org/obo/FOOG_0000027>)
@@ -165,6 +173,8 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000033> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000034> (ascribes)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000034> "É uma Object Property que liga uma Ascriptive Information Entity a um ativo
+ou processo."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000034> "ascribes"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000034> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000034> <http://purl.obolibrary.org/obo/FOOG_0000028>)
@@ -172,6 +182,9 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000034> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000035> (prescribes)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000035> "É uma Object Property que liga uma Prescriptive Information Entity a um
+agente ou processo, estabelecendo as regras, limites de projeto, planos de ação ou
+procedimentos operacionais que devem ser obrigatoriamente obedecidos na planta."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000035> "prescribes"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000035> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000035> <http://purl.obolibrary.org/obo/IAO_0000030>)
@@ -180,6 +193,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000035> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000036> (derived from)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000036> "É a relação de onde veio um valor atribuído entre uma entidade informacional atributiva e uma entidade informacional descritiva."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000036> "derived from"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000036> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000036> <http://purl.obolibrary.org/obo/FOOG_0000028>)
@@ -187,6 +201,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000036> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000037> (has comparison basis)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000037> "é a relação entre uma entidade informacional atriobutiva e uma entidade informacional prescritiva"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000037> "has comparison basis"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000037> owl:topObjectProperty)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000037> <http://purl.obolibrary.org/obo/FOOG_0000028>)
@@ -194,6 +209,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000037> <http://purl.o
 
 # Object Property: <http://purl.obolibrary.org/obo/FOOG_0000045> (initiated by)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000045> "É uma Object Property que liga umocorrente subsequente a outro ocorrente."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000045> "initiated by"@en)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000045> <http://purl.obolibrary.org/obo/BFO_0000003>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000045> <http://purl.obolibrary.org/obo/BFO_0000003>)
@@ -247,12 +263,12 @@ DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000060> xsd:dateTime)
 
 # Data Property: <http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> (has loss value (bbl))
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> "has loss value (bbl)"@pt)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> "has loss value (bbl)"@en)
 DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> xsd:float)
 
 # Data Property: <http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> (has last maintenance date)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> "has last maintenance date"@pt)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> "has last maintenance date"@en)
 DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc>)
 DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065>)
 DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084>)
@@ -270,12 +286,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000000> "ro
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000003> (Registro da Falha)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000003> "Relatório de integridade de um equipamento que falhou."@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000003> "É uma information content entity estruturada que agrega múltiplos dados e
+metadados documentando a localização, a cronologia e os impactos de um evento de
+falha específico em um ativo."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000003> "Failure Record"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000003> "Registro da Falha"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000003> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000005> (FunctionalLocation)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000005> "local de instalação de uma planta, sistema ou subsistema."@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000005> "É um site que representa o local de alguma instalação."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000005> "FunctionalLocation"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000005> "Local Funcional"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000005> <http://purl.obolibrary.org/obo/BFO_0000029>)
@@ -283,12 +305,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000005> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000006> (PlantSite)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000006> "local de instalação de uma plant."@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000006> "É um Functional Location que representa o local de instalação de alguma planta."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000006> "PlantSite"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000006> "Sítio da Planta"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000006> <http://purl.obolibrary.org/obo/FOOG_0000005>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000007> (Sítio do Sistema)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000007> "local de instalação de um subsistema."@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000007> "É uma Functional Location que representa o local de instalação de algum sistema."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000007> "SystemSite"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000007> "Sítio do Sistema"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000007> <http://purl.obolibrary.org/obo/FOOG_0000005>)
@@ -296,6 +322,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000007> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000008> (Sítio do Subsistema)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000008> "local de instalação de um sistema."@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000008> "É um Functional Location que representa o local de instalação de algum
+subsistema."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000008> "SubsystemSite"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000008> "Sítio do Subsistema"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000008> <http://purl.obolibrary.org/obo/FOOG_0000005>)
@@ -309,6 +338,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000013> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000018> (Estado de Falha)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000018> "É o processo que se inicia após um item perder completamente a
+capacidade operacional."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000018> "Estado de Falha"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000018> "FailedState"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000018> <http://purl.obolibrary.org/obo/FOOG_0000013>)
@@ -317,6 +348,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000018> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000019> (DegradedState)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000019> "É o processo que ocorre quando um item está em atividade, mas possui uma perda de desempenho ou confiabilidade."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000019> "DegradedState"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000019> "Estado de Degradação"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000019> <http://purl.obolibrary.org/obo/FOOG_0000013>)
@@ -325,6 +357,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000019> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000020> (Estado de Operação)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000020> "É o processo em que o item executa suas funções projetadas em
+conformidade total com os requisitos de desempenho, segurança e economia do
+projeto."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000020> "Estado de Operação"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000020> "OperatingState"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000020> <http://purl.obolibrary.org/obo/FOOG_0000013>)
@@ -332,6 +367,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000020> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000021> (Undesirable Disposition)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000021> "É uma disposition que inere em um material artifact e que constitui uma
+vulnerabilidade física latente gerada por imperfeições, danos ou desvios de projeto."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000021> "Disposição Indesejável"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000021> "Undesirable Disposition"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000021> <http://purl.obolibrary.org/obo/BFO_0000016>)
@@ -340,6 +377,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000021> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000022> (válvula de controle)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000022> "É um material artifact que modula dinamicamente a taxa de vazão, pressão ou
+temperatura de um fluido."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000022> "control valve"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000022> "válvula de controle"@pt-br)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOOG_0000022> "https://en.wikipedia.org/wiki/Control_valve")
@@ -347,6 +386,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000022> <https://www.inf.ufrgs.
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000023> (Oil Production Loss Process)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000023> "É o processo de perda de produção causado por um mau funcionamento.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000023> "Oil Production Loss Process"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000023> "Processo de Perda de Produção de Petróleo"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000023> <http://purl.obolibrary.org/obo/BFO_0000015>)
@@ -354,62 +394,79 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000023> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000026> (Failure Code)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_0000026> "Código de um tipo de falha: NUMGIP123465"@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000026> "É uma information content entity composta por um identificador alfanumérico
+padronizado."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000026> "Código do Modo de Falha"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000026> "Failure Code"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000026> <http://purl.obolibrary.org/obo/IAO_0000027>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000027> (Entidade Informacional Descritiva)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000027> "É uma information content entity que descreve as qualidades físicas, dimensões,
+materiais de fabricação ou propriedades intrínsecas de um continuante independente
+sem emitir julgamentos de valor ou prescrições."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "Descriptive Information Entity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "Entidade Informacional Descritiva"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000028> (Entidade Informacional Atributiva)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000028> "É uma information content entity que atribui formalmente uma propriedade"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Ascriptive Information Entity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Entidade Informacional Atributiva"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000028> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000029> (Prescriptive Information Entity)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000029> "É uma information content entity que dita regras, instruções, limites operacionais"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000029> "Entidade Informacional Prescritiva"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000029> "Prescriptive Information Entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000029> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000030> (Produção-Teórica Potencial)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000030> "É uma information content entity que representa o volume máximo calculado de
+hidrocarbonetos que um ativo pode produzir em condições ideais de projeto."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000030> "Produção-Teórica Potencial"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000030> "Theoretical-Production Potential"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000030> <http://purl.obolibrary.org/obo/FOOG_0000029>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000031> (Medida da Perda de Produção)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000031> "É uma entidade informacional atributiva que mede uma perda de petróleo."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000031> "Medida da Perda de Produção"@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000031> "Production Loss Measurement"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000031> <http://purl.obolibrary.org/obo/FOOG_0000028>)
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000032> (Produção Medida)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000032> "É uma information content entity que registra o volume real de hidrocarbonetos
+efetivamente extraído."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000032> "Measured Production"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000032> "Produção Medida"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000032> <http://purl.obolibrary.org/obo/FOOG_0000027>)
 
-# Class: <http://purl.obolibrary.org/obo/FOOG_0000044> (Malfuncionamento)
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000044> (Mau funcionamento)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000044> "Malfuncionamento"@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000044> "É um processo que não está sendo executado da maneira projetada por causa do ocorrimento de alguma falha."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000044> "Malfunctioning"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000044> "Mau funcionamento"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000044> <http://purl.obolibrary.org/obo/BFO_0000015>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact>))
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FOOG_0000045> ObjectUnionOf(<http://purl.obolibrary.org/obo/FOOG_0000046> <https://spec.industrialontologies.org/ontology/construct/FailureProcess>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000046> (FailureProcessBoundary)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000046> "É um processo instantâneo que causa um equipamento a não operar de maneira projetada."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000046> "FailureProcessBoundary"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000046> <http://purl.obolibrary.org/obo/BFO_0000035>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000057> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact>))
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_0000050> (control flow role)
 
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000050> "papel de controlar fluxo"@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_0000050> "É o papel que uma válvula de controle assume em uma planta de produção."@pt-br)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000050> "control flow role"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000050> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
@@ -423,8 +480,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb
 
 # Class: <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> (fire-fighting pump)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "Bomba de incêndio; Bomba de combate a incêndio"@pt-br)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "fire-fighting pump"@pt)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "Bomba de incêndio; Bomba de combate a incêndio"@pt-br)
+AnnotationAssertion(dcterms:description <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "É um material artifact projetado especificamente para transferir energia térmica
+entre dois ou mais fluidos."@pt-br)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "fire-fighting pump"@en)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> "https://www.ksb.com/en-global/centrifugal-pump-lexicon/article/fire-fighting-pump-1116746")
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef5f47> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065>)
 
@@ -436,6 +495,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a10ef
 
 # Class: <https://spec.industrialontologies.org/ontology/construct/FailureProcess> (FailureProcess)
 
+AnnotationAssertion(dcterms:description <https://spec.industrialontologies.org/ontology/construct/FailureProcess> "É um processo não instantâneo que causa um equipamento a não operar de maneira projetada."@pt-br)
 AnnotationAssertion(rdfs:label <https://spec.industrialontologies.org/ontology/construct/FailureProcess> "FailureProcess"@en)
 AnnotationAssertion(rdfs:label <https://spec.industrialontologies.org/ontology/construct/FailureProcess> "Processo de Falha"@pt-br)
 SubClassOf(<https://spec.industrialontologies.org/ontology/construct/FailureProcess> <http://purl.obolibrary.org/obo/BFO_0000015>)
@@ -450,6 +510,8 @@ SubClassOf(<https://spec.industrialontologies.org/ontology/core/Core/MaterialArt
 
 # Class: <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> (inflow control valve)
 
+AnnotationAssertion(dcterms:description <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> "É um material artifact com o propósito de restringir e equalizar o perfil de fluxo de
+entrada dos fluidos ao longo do poço."@pt-br)
 AnnotationAssertion(rdfs:seeAlso <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000027> "https://glossary.slb.com/en/terms/i/inflow_control_valve")
 
 # Class: <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> (valve)
