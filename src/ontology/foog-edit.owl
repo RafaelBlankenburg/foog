@@ -579,7 +579,6 @@ ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000018> <http://purl.obolib
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0000057> (Failure v1 Datetime)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000057> "Failure v1 Datetime"@en)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_0000057> "23/06/2026 12:14:30"@en)
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4> (B-5124003)
 
@@ -601,7 +600,7 @@ ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "OilProductionLoss01"@pt)
 DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "2025-03-10T08:15:09"^^xsd:dateTime)
 DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000060> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "2025-03-10T13:40:00"^^xsd:dateTime)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "18.5"^^xsd:decimal)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "18.5"^^xsd:float)
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1> (P-122303A)
 
@@ -653,7 +652,7 @@ ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "OilProductionLoss02"@pt)
 DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "2025-07-22T21:30:00"^^xsd:dateTime)
 DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "2025-07-23T10:15:00"^^xsd:dateTime)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "25.4"^^xsd:decimal)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "25.4"^^xsd:float)
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9> (B-1251002B)
 
