@@ -58,9 +58,10 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000054>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000056>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FOOG_0000058>))
-Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000041>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000059>))
 Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_0000060>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7>))
+Declaration(DataProperty(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000001>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000002>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000004>))
@@ -83,6 +84,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0000057>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_012e3ab5_cd54_4a7a_9eaf_814b0406c3a4>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_05a1ab63_5940_4343_9862_3ca4750d8fc8>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_0fe58203_0f39_4093_b4d8_4a1947154cb5>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_11be6566_e416_4eee_924d_ee8633683f40>))
@@ -92,6 +94,7 @@ Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_3b691cf6_8cf5_4
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_5353d1c5_10a8_4a8b_ba1e_d869c0367728>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_880d2522_cd45_458b_ba1e_218361125e92>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_aaf1fa4a_6c41_4f97_a8d0_d405babc61c5>))
 Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/FOOG_bbe8679d_d44f_419f_bf6d_6d6276cad42f>))
@@ -228,20 +231,32 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000058> <http://purl.o
 #   Data Properties
 ############################
 
-# Data Property: <http://purl.obolibrary.org/obo/FOOG_0000041> (has value (bbl))
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000041> "has value (bbl)"@en)
-SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000041> owl:topDataProperty)
-
 # Data Property: <http://purl.obolibrary.org/obo/FOOG_0000059> (has start time)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000059> "has start time"@en)
 SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000059> owl:topDataProperty)
+DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_0000023>)
+DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000059> xsd:dateTime)
 
 # Data Property: <http://purl.obolibrary.org/obo/FOOG_0000060> (has end time)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000060> "has end time"@en)
 SubDataPropertyOf(<http://purl.obolibrary.org/obo/FOOG_0000060> owl:topDataProperty)
+DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_0000060> <http://purl.obolibrary.org/obo/FOOG_0000023>)
+DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_0000060> xsd:dateTime)
+
+# Data Property: <http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> (has loss value (bbl))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> "has loss value (bbl)"@pt)
+DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> xsd:float)
+
+# Data Property: <http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> (has last maintenance date)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> "has last maintenance date"@pt)
+DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc>)
+DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000065>)
+DataPropertyDomain(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> <https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084>)
+DataPropertyRange(<http://purl.obolibrary.org/obo/FOOG_bde26e5a_f06a_4190_b9ae_1d1b604e11ab> xsd:date)
 
 
 
@@ -349,7 +364,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "De
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000027> "Entidade Informacional Descritiva"@pt-br)
 SubClassOf(<http://purl.obolibrary.org/obo/FOOG_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
-# Class: <http://purl.obolibrary.org/obo/FOOG_0000028> (Ascriptive Information Entity)
+# Class: <http://purl.obolibrary.org/obo/FOOG_0000028> (Entidade Informacional Atributiva)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Ascriptive Information Entity"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000028> "Entidade Informacional Atributiva"@pt-br)
@@ -508,19 +523,16 @@ ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/BFO_0000197> <http://pur
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000038> "Measured Production v1"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000032> <http://purl.obolibrary.org/obo/FOOG_0000038>)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000038> "60000"^^xsd:integer)
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0000039> (Theoretical-Production Potential v1)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000039> "Theoretical-Production Potential v1"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000030> <http://purl.obolibrary.org/obo/FOOG_0000039>)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000039> "70000")
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0000040> (Production Loss Measurement v1)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0000040> "Production Loss Measurement v1"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_0000031> <http://purl.obolibrary.org/obo/FOOG_0000040>)
-DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000041> <http://purl.obolibrary.org/obo/FOOG_0000040> "10000")
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0000042> (Control Flow)
 
@@ -584,6 +596,13 @@ ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_ceb640af_51a3_4ff4_bfb3_6e7a
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848> "P-1231001"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_0dbed3ba_251a_454c_a12a_8a011977c848>)
 
+# Individual: <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> (OilProductionLoss01)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "OilProductionLoss01"@pt)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "2025-03-10T08:15:09"^^xsd:dateTime)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000060> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "2025-03-10T13:40:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_0e4dc973_296c_48f5_8f3a_3baae518828e> "18.5"^^xsd:decimal)
+
 # Individual: <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1> (P-122303A)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_0f0e3f42_1e95_46ec_8bf9_2fb20fa6c4e1> "P-122303A"@en)
@@ -628,6 +647,13 @@ ClassAssertion(<https://www.inf.ufrgs.br/ontologies/O3PO#O3PO_0000084> <http://p
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3> "P-1223002A"@en)
 ClassAssertion(<http://purl.obolibrary.org/obo/FOOG_4be0e901_b8ad_4a57_b1de_054f62fb66dc> <http://purl.obolibrary.org/obo/FOOG_9e6f7d64_203a_45e9_8dc8_976a49d4dac3>)
+
+# Individual: <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> (OilProductionLoss02)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "OilProductionLoss02"@pt)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "2025-07-22T21:30:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_0000059> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "2025-07-23T10:15:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://purl.obolibrary.org/obo/FOOG_3506e5f9_9acf_4d0e_af93_d59dcc664ec7> <http://purl.obolibrary.org/obo/FOOG_9fcecf9e_0125_44cf_a209_03d38899e66b> "25.4"^^xsd:decimal)
 
 # Individual: <http://purl.obolibrary.org/obo/FOOG_a80abc7d_5296_4072_8960_7eda7bad46a9> (B-1251002B)
 
